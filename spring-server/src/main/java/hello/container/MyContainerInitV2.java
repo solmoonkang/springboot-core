@@ -24,5 +24,6 @@ public class MyContainerInitV2 implements ServletContainerInitializer {
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
-        } }
+        }
+    }
 }
