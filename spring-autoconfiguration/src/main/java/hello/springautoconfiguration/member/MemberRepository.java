@@ -17,7 +17,7 @@ public class MemberRepository {
 
     // 예제의 단순화를 위해 MemberRepository에 테이블 생성 스크립트를 구현
     public void initTable() {
-        jdbcTemplate.execute("CREATE TABLE member(member_id VARCHAR PRIMARY KEY , name VARCHAR)");
+        jdbcTemplate.execute("CREATE TABLE member(member_id VARCHAR PRIMARY KEY, name VARCHAR)");
     }
 
     public void save(Member member) {
