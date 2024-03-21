@@ -1,4 +1,4 @@
-package hello.springautoconfiguration.memory;
+package hello.memory;
 
 import lombok.Getter;
 import lombok.ToString;

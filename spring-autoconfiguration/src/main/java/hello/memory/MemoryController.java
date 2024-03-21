@@ -1,4 +1,4 @@
-package hello.springautoconfiguration.memory;
+package hello.memory;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
