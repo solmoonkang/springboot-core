@@ -1,4 +1,4 @@
-package hello.springexternal;
+package hello.springexternal.external;
 
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
