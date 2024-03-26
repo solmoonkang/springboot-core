@@ -1,11 +1,11 @@
 package hello.springexternal;
 
-import hello.springexternal.config.MyDataSourceConfigV2;
+import hello.springexternal.config.MyDataSourceConfigV3;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
-@Import(MyDataSourceConfigV2.class)
+@Import(MyDataSourceConfigV3.class)
 @SpringBootApplication(scanBasePackages = "hello.springexternal.datasource")
 public class SpringExternalApplication {
 
