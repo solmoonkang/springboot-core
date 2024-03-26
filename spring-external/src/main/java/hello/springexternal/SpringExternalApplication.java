@@ -6,7 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @Import(MyDataSourceConfigV3.class)
-@SpringBootApplication(scanBasePackages = "hello.springexternal.datasource")
+@SpringBootApplication(scanBasePackages = {
+        "hello.springexternal.datasource",
+        "hello.springexternal.pay"
+})
 public class SpringExternalApplication {
 
     public static void main(String[] args) {
