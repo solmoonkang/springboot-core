@@ -1,0 +1,6 @@
+# Exposure All EndPoints In Web
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
