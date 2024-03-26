@@ -9,7 +9,8 @@ management:
       enabled: true
 
   server:
-    port: 9292
+    port: 8080
+    # port: 9292
 
   endpoints:
     web:
