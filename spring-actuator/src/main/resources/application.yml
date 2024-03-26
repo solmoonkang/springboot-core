@@ -10,3 +10,7 @@ management:
     health:
       show-components: always
 
+# Range hello.springactuator.controller package debug level
+logging:
+  level:
+    hello.springactuator.controller: debug
