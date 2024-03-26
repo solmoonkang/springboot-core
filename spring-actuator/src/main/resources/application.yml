@@ -5,3 +5,8 @@ management:
       exposure:
         include: "*"
         exclude: "env, beans"
+  # Exposure Health Info
+  endpoint:
+    health:
+      show-components: always
+
