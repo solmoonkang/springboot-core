@@ -1,5 +1,6 @@
-package hello.springactuator.order;
+package hello.springactuator.order.v0;
 
+import hello.springactuator.order.OrderService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
