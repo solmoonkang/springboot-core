@@ -53,4 +53,11 @@ public class TrafficController {
 
         return "OK";
     }
+
+    @GetMapping("/error-log")
+    public String errorLog() {
+        log.error("ERROR LOG");
+
+        return "ERROR";
+    }
 }
