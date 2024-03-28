@@ -29,7 +29,7 @@ public class TrafficController {
             value++;
         }
 
-        return "OK VALUE: " + value;
+        return "ok value: " + value;
     }
 
     @GetMapping("/jvm")
@@ -40,7 +40,7 @@ public class TrafficController {
             list.add("HELLO JVM!" + i);
         }
 
-        return "OK";
+        return "ok";
     }
 
     @GetMapping("/jdbc")
@@ -51,13 +51,13 @@ public class TrafficController {
         log.info("connection info={}", connection);
         // conn.close();        // 커넥션을 닫지 않는다.
 
-        return "OK";
+        return "ok";
     }
 
     @GetMapping("/error-log")
     public String errorLog() {
         log.error("ERROR LOG");
 
-        return "ERROR";
+        return "error";
     }
 }
